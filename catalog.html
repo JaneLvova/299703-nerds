@@ -7,7 +7,8 @@
 </head>
 
 <body>
-    <header>
+    <section>
+    
         <div class="container">
                 <a href="https://nerds.com"><img src="img/svg-nerds/nerds-logo.svg" alt="nerds-logo"></a>
                 <!--тут должен быть текст какой-нить на случай если не подгрузится изображение?-->
@@ -23,12 +24,12 @@
                         </li>
                     </ul>
                 </nav>
-        </div></header>
-            <div class="header">
-                <h1>Магазин готовых шаблонов</h1></div>
-
+        </div></section>
             <div class="container">
- 		<div class="catalof-filter">
+                <header>
+                    <h1>Магазин готовых шаблонов</h1></header></div>
+<section class="catalog-filter">          
+    <div class="container">
  			<form action="#" method="post">
  				<fieldset class="filter-price">
  					<legend>Стоимость:</legend>
@@ -47,8 +48,9 @@
  							до <input type="text" value="15000">
  						</label>
  					</div>
- 				</fieldset>
- 				<fieldset class="filter-box">
+                </fieldset></div>
+               <div class="container"> <fieldset class="filter-box">
+                
  					<legend>Сетка:</legend>
  					<input type="radio" id="adaptive" name="radio">
  					<label for="adaptive">Адаптивная</label>
@@ -58,8 +60,8 @@
  				
  					<input type="radio" id="rubber" name="radio">
  					<label for="">Резиновая</label>
- 				</fieldset>
- 				<fieldset class="filter-box">
+ 				</fieldset></div>
+ 				<div class="container"><fieldset class="filter-box">
  					<legend>Особенности:</legend>
  					<input type="checkbox" id="slider" name="slider">
  					<label for="slider">Слайдер</label>
@@ -75,11 +77,12 @@
  				
  					<input type="checkbox" id="basket" name="basket">
  					<label for="basket">Корзина</label>	
- 				</fieldset>
+ 				</fieldset></div>
  				<input class="btn btn-gray" type="submit" value="Показать">
- 			</form>
- 		</div>
-            <div class="catalog-sort">
+        </form>
+    </div></section>
+            <section>
+                <div class="catalog-sort">
                 <span>Сортировать:</span>
                 <ul>
                     <li>
@@ -169,29 +172,50 @@
  				<a class="next" href="#">Следующая</a>
  			</div>
             </div>
-    </div> 
-                    <footer>
-                        <div class="map">
-                        <img src="img/map.jpg" alt="map">
-                    <img src="img/location-point.png" alt="location-point">
-                        </div>
-                        <section class="contacts">
-                        <h3> Nёrds design studio</h3>
-                        <p>191186, Санкт-Петербург,<br> ул.Б.Конюшенная,д.19/8<br>
-                        тел.+7(812)275-75-75</p>
-                <a class="btn-red" href="/href">Напишите нам</a>
-                        </section>
+    </div> </section>
+                    section>
                     <div class="container">
-                    <a>
-                        <img src="img//svg-nerds/vk-icon.svg" alt="vk-icon"></a>
-                    <a><img src="img//svg-nerds/fb-icon.svg" alt="fb-icon"></a>
-                    <a> <img src="img//svg-nerds/insta-icon.svg" alt="insta-icon"></a>
-                </div>
-                <section class="lets friendship">
-                    <h3>Давайте дружить,это выгодно!</h3>
-                    <p>Скидка 10% для друзей из социальных сетей.</p>
+                        <div class="map">
+                            <iframe src="<iframe src=" https://yandex.ru/map-widget/v1/-/CBURUSwM-A " width="560 " height="400 " frameborder="0 "></iframe>" <img src="img/map.jpg" alt="map">
+                                <div class="location-point"><img src="img/location-point.png" alt="location-point">
+                                </div>
+                                <h3 class="company name">Nёrds design studio</h3>
+                                <p class="phone">191186, Санкт-Петербург,
+                                    <br> ул.Б.Конюшенная,д.19/8
+                                    <br> тел.+7(812)275-75-75 </p>
+                                <a class="btn btn-red" href="form.html">Напишите нам</a>
+                                <div class="feedback-form-close"></div>
+                                <form action="#" method="post">
+                                    <div class="half-width">
+                                        <label for="name">Ваше имя:</label>
+                                        <input type="text" name="name" value="" placeholder="Представьтесь, пожалуйста" id="name">
+                                    </div>
+                                    <div class="half-width">
+                                        <!--1039px/669px-->
+                                        <label for="email">Ваш e-mail:</label>
+                                        <input type="email" name="email" value="" placeholder="Для отравки ответа" id="email">
+                                    </div>
+                                    <label for="text">Текст письма:</label>
+                                    <textarea name="text" placeholder="В свободной форме" id="text"></textarea>
+                                    <button class="btn btn-red" type="submit">Отправить</button>
+                                    <button class="btn btn-gray" type="submit">Отмена</button>
+                                </form>
+                        </div>
+                        </section>
+
+                <section>
+                    <div class="container">
+                        <a>
+                            <img src="img//svg-nerds/vk-icon.svg" alt="vk-icon"></a>
+                        <a><img src="img//svg-nerds/fb-icon.svg" alt="fb-icon"></a>
+                        <a> <img src="img//svg-nerds/insta-icon.svg" alt="insta-icon"></a>
+
+                        <section class="lets friendship">
+                            <h3>Давайте дружить,это выгодно!</h3>
+                            <p>Скидка 10% для друзей из социальных сетей.</p>
+                        </section>
+                    </div>
                 </section>
-                </footer>
 </body>
 
 </html>
