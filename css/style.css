@@ -8,11 +8,23 @@ body {
 	font-family: "Roboto", "Arial", sans-serif;
     color: black;
 }
-
-.container{
-    width: 1160px;
-    margin: 0 auto;
+.main-menu {
+    background-color: #eeeeee;
+display:flex;
 }
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+    padding: 0px 20px;
+}
+
+.header .container {
+    margin: 0;
+    padding: 0;
+    min-height: 550px;
+}
+
 .services{
     display: flex;
     justify-content: space-between;
@@ -47,24 +59,196 @@ color: black;
 background-color: 251RGB;86RGB;90RGB;
  
 }
-a .main-menu {
-    width:61px;
-    color:black;
-     display: inline-flex;
-    align-self: flex-start
+
+.header-logo{
+        font-size: 55px;
+    line-height: 55px;
+    font-weight: 500;
+    text-transform: none;
+}
+.header-logo a:hover {
+    color: #cccccc;
+    opacity: 0.8;
+
 }
 
-.navigation li{
-    width:61px;
-    color:black;
-     display: inline-flex;
-      justify-content: center;
+.header-logo a:focus {
+    color: #cccccc;
+    opacity: 0.3;
 }
-a .navigation {
-    width:61px;
-    color:black;
-     display: inline-flex;
-      justify-content: flex-end;
+
+.site-navigation,
+.basket {
+    font-size: 16px;
+    line-height: 30px;
+    font-weight: 500;
+}
+.site-navigation-list {
+    list-style: none;
+
+}
+.main-navigation a {
+    color: #000000;
+}
+
+.main-navigation {
+    width: 100%;
+
+}
+.container {
+    width: 1200px;
+    margin: 0 auto;
+    padding: 0px 20px;
+}
+
+
+.main-navigation a:hover,
+.basket a:hover {
+    color: #fb565a;
+
+}
+
+.main-navigation a:focus,
+.basket a:focus {
+    color: #ededed;
+
+}
+
+.basket {
+    display: flex;
+    width: 125px;
+    list-style: none;
+    margin-top: 47px;
+
+}
+.main-navigation ul {
+    display: flex;
+    justify-content: space-between;
+    width: 440px;
+    list-style: none;
+    margin-top: 47px;
+}
+
+.main-navigation li {
+    margin-right: 45px;
+}
+
+.basket.basket-link {
+    position: relative;
+    padding-left: 50px;
+    margin-left: 20px;
+}
+.slider {
+    position: relative;
+    width: 1160px;
+    height: 433px;
+    margin: 0 auto;
+}
+.service {
+    text-align: left;
+}
+
+.service h3 {
+    font-size: 24px;
+    line-height: 30px;
+    font-weight: 700;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.service-text {
+    text-transform: none;
+}
+.btn-service-order-web {
+    display: block;
+    width: 160px;
+    padding: 10px 0px;
+    margin-top: 40px;
+    font-size: 16px;
+    color: #ffffff;
+    text-decoration: none;
+    background-color: #fb565a;
+    text-align: center;
+    border-radius: 3px;
+
+}
+
+.btn-service-order-web:hover {
+    color: #ffffff;
+    background-color: #e74246;
+}
+
+.btn-service-order-web:focus {
+    color: #ffffff;
+    background-color: #d7373b;
+}
+
+.btn-service-order-mob {
+    display: block;
+    width: 160px;
+    padding: 10px 0px;
+    margin-top: 40px;
+    font-size: 16px;
+    color: #ffffff;
+    text-decoration: none;
+    background-color: #00ca74;
+    text-align: center;
+    border-radius: 3px;
+}
+
+.btn-service-order-mob:hover {
+    color: #ffffff;
+    background-color: #00bc6c;
+}
+
+.btn-service-order-mob:focus {
+    color: #ffffff;
+    background-color: #00aa62;
+}
+
+.btn-service-order-presentation {
+    display: block;
+    width: 160px;
+    padding: 10px 0px;
+    margin-top: 40px;
+    font-size: 16px;
+    color: #ffffff;
+    text-decoration: none;
+    background-color: #efc84a;
+    text-align: center;
+    border-radius: 3px;
+}
+
+.btn-service-order-presentation:hover {
+    color: #ffffff;
+    background-color: #eab534;
+}
+
+.btn-service-order-presentation:focus {
+    color: #ffffff;
+    background-color: #e5a722;
+}
+
+.btn-submit {
+    display: block;
+    width: 260px;
+    margin-top: 40px;
+    font-size: 16px;
+    line-height: 18px;
+    font-weight: 500px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+    background-color: #eeeeee;
+    text-align: center;
+    border-radius: 3px;
+    border: 0;
+}
+
+.btn-submit:hover,
+.btn-submit:focus,
+.btn-submit:active {
+    background-color: #dfdfdf;
 }
 
 img {
